@@ -1,0 +1,63 @@
+
+
+body {
+  margin: 0;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.centralize {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  border-top: 10px solid #2ecc71;
+  height: 600px;
+  background: #c5975c url(../img/banner.jpg) repeat-x top center;
+}
+  header h1 {
+    width: 183px;
+    height: 83px;
+    margin-top: 150px;
+    background: url(../img/logo-notify.png) no-repeat center;
+    text-indent: -9000px;
+  }
+  header p.slogan {
+    font-size: 25px;
+    color: #fff;
+  }
+  header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+    header nav ul li {
+      display: inline-block;
+    }
+      header nav ul li a {
+        padding: 10px;
+        width: 35px;
+        text-align: center;
+        display: inline-block;
+        border-radius: 30px;
+        background-color: #000;
+        font-size: 30px;
+        color: #fff;
+        opacity: 0.5;
+      }
+
+      header nav ul li a:hover {
+        background-color: #2ecc71;
+        opacity: 1;
+        transition: 0.3s;
+      }
+
+main {
+  height: 330px;
+  background: #fff;
+}
+
+section.news {
+  height: 420px;
+  background: #e3e3e3;
+}

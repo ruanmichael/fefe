@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+  div.page {
+    width: 990px;
+    box-shadow: 0 0 2px #000;
+    min-height: 500px;
+    margin: 0 auto;
+    position: relative;
+  }
+   .pop1{
+       position: fixed;
+       z-index:3;
+       
+   }
+   .pop2{
+       position:  absolute;
+       z-index:2;
+       
+   }
+
+    div.page header {
+      background-color: blue;
+      min-height: 100px;
+    }
+
+    div.page aside {
+      background-color: lime;
+      min-height: 400px;
+      /* width: 200px; */
+      width: 20%;
+      float: left;
+    }
+
+      div.page aside nav ul {
+        list-style: none;
+        padding: 0;
+      }
+
+        div.page aside nav ul a {
+          display: block;
+          padding: 3px 5px;
+          text-decoration: none;
+        }
+
+        div.page aside nav ul a:hover {
+          background-color: green;
+        }
+
+    div.page main {
+      background-color: pink;
+      /* width: 400px; */
+      width: 80%;
+      float: left;
+    }
+    
+    aside{
+      
+    }
